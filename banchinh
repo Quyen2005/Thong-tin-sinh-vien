@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin cá nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img.profile {
+            display: block;
+            max-width: 150px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            border: 2px solid #0073e6;
+        }
+        img.logo {
+            display: block;
+            max-width: 100px;
+            margin: 0 auto 10px;
+        }
+        footer {
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/9/9e/Logo_Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_S%C6%B0_ph%E1%BA%A1m_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh.svg/1200px-Logo_Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_S%C6%B0_ph%E1%BA%A1m_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh.svg.png" alt="Logo trường" class="logo">
+        <h1>Trường Đại học Sư phạm Thành phố Hồ Chí Minh</h1>
+    </header>
+
+    <main>
+        <img src="https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/348436906_199784039602938_5753739596793509408_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeF8sKPXeZQv8KRneRQSnEXkl2d_liB6MHuXZ3-WIHowe2hsJ5fKUST3buoCqAw5C6dYzOQ7aBCNtvphXnqQZvpZ&_nc_ohc=vmWglMG0ZcsQ7kNvgEcJXXI&_nc_zt=23&_nc_ht=scontent.fsgn5-9.fna&_nc_gid=AoOLbhnp6pVbBm3dD9A-96g&oh=00_AYBMLPYlZWAl_0fQXLKDgR-R7DJymiYnj-LPC-jRZUieHA&oe=675CB55B" alt="Ảnh cá nhân" class="profile">
+        <h2>Tên: Trịnh Trọng Quyền</h2>
+        <p>Ngày tháng năm sinh: 21/09/2005</p>
+        <p>Mã số sinh viên: 49.01.602.032</p>
+        <p>Email: 4901602032@student.hcmue.edu.vn</p>
+        <p>Số điện thoại: 0338639837</p>
+        <p>Ngành học: Sư phạm Lịch sử</p>
+        <p>Niên khóa: 2023 - 2027</p>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
